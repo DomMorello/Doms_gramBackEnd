@@ -52,7 +52,7 @@ type Room {
 type Message {
   id: ID! @id
   text: String!
-  from: User! @relation(name:"From")
-  to: User! @relation(name:"To")
+  from: User! @relation(name: "From")
+  to: User! @relation(name: "To")
   room: Room!
 }
